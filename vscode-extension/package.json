@@ -1,0 +1,20 @@
+{
+    "name": "theme-norman",
+    "displayName": "Norman Theme",
+    "description": "Norman theme... so normal it's norman",
+    "publisher": "local",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.70.0"
+    },
+    "categories": ["Themes"],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Norman",
+                "uiTheme": "vs-dark",
+                "path": "./themes/norman-color-theme.json"
+            }
+        ]
+    }
+}
